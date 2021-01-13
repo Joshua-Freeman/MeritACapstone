@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hackerrank.sample.EndTests" time="1.539" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\repos\capstone\MeritCapstone\capstone-server"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\repos\capstone\MeritCapstone\capstone-server"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\joshu\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\eclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14532262878834921799.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\joshu\AppData\Local\Microsoft\WindowsApps;C:\Users\joshu\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;C:\Users\joshu\AppData\Local\atom\bin;C:\Users\joshu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joshu\AppData\Roaming\npm;C:\Users\joshu\AppData\Local\Yarn\bin;C:\Users\joshu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;C:\Users\joshu\AppData\Local\atom\bin;C:\Users\joshu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joshu\AppData\Roaming\npm;C:\Users\joshu\AppData\Local\Yarn\bin;C:\Users\joshu\OneDrive\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\joshu"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="joshu"/>
+    <property name="java.class.path" value="C:\Users\joshu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_202"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_202\lib\resources.jar;C:\Program Files\Java\jre1.8.0_202\lib\rt.jar;C:\Program Files\Java\jre1.8.0_202\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_202\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_202\lib\jce.jar;C:\Program Files\Java\jre1.8.0_202\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_202\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_202\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\repos\capstone\MeritCapstone\capstone-server\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testcreatUser" classname="com.hackerrank.sample.EndTests" time="1.09">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:665)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.hackerrank.sample.EndTests.testcreatUser(EndTests.java:77)
+]]></failure>
+    <system-out><![CDATA[14:58:35.314 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.hackerrank.sample.EndTests]
+14:58:35.319 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:58:35.333 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:58:35.347 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.hackerrank.sample.EndTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:58:35.360 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hackerrank.sample.EndTests], using SpringBootContextLoader
+14:58:35.363 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.hackerrank.sample.EndTests]: class path resource [com/hackerrank/sample/EndTests-context.xml] does not exist
+14:58:35.363 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.hackerrank.sample.EndTests]: class path resource [com/hackerrank/sample/EndTestsContext.groovy] does not exist
+14:58:35.363 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.hackerrank.sample.EndTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:58:35.423 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.hackerrank.sample.EndTests]
+14:58:35.664 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.hackerrank.sample.EndTests]: using defaults.
+14:58:35.666 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:58:35.816 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@768b970c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a4041cc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@15b3e5b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@61ca2dfa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b53f538, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@134593bf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4bb4de6a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7ba18f1b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2f8f5f62, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1068e947, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7dc222ae, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@aecb35a]
+14:58:35.818 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hackerrank.sample.EndTests]
+14:58:35.818 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hackerrank.sample.EndTests]
+14:58:35.820 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.hackerrank.sample.EndTests]
+14:58:35.820 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:58:35.820 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:58:35.820 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.hackerrank.sample.EndTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:58:35.820 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hackerrank.sample.EndTests], using SpringBootContextLoader
+14:58:35.821 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.hackerrank.sample.EndTests]: class path resource [com/hackerrank/sample/EndTests-context.xml] does not exist
+14:58:35.821 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.hackerrank.sample.EndTests]: class path resource [com/hackerrank/sample/EndTestsContext.groovy] does not exist
+14:58:35.821 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.hackerrank.sample.EndTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:58:35.825 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.hackerrank.sample.EndTests]
+14:58:35.827 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.hackerrank.sample.EndTests]: using defaults.
+14:58:35.829 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:58:35.831 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4df828d7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b59d31, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62fdb4a6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11e21d0e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1dd02175, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@31206beb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e77a1ed, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3ffcd140, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@23bb8443, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1176dcec, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@120d6fe6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ba2ca36]
+14:58:35.832 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hackerrank.sample.EndTests]
+14:58:35.832 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hackerrank.sample.EndTests]
+14:58:35.839 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hackerrank.sample.EndTests]
+14:58:35.839 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hackerrank.sample.EndTests]
+14:58:35.848 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@49e202ad testClass = EndTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1c72da34 testClass = EndTests, locations = '{}', classes = '{class com.meritamerica.capstone.Application, class com.meritamerica.capstone.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@43814d18, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@627551fb, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1f36e637, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@131276c2, org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@711f39f9], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+14:58:35.849 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hackerrank.sample.EndTests]
+14:58:35.849 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hackerrank.sample.EndTests]
+14:58:36.219 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:58:36.220 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:58:36.221 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:58:36.223 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+14:58:36.227 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+14:58:36.228 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2020-07-15 14:58:40.235  INFO 19856 --- [           main] com.hackerrank.sample.EndTests           : Starting EndTests on DESKTOP-CI2G06N with PID 19856 (started by joshu in D:\repos\capstone\MeritCapstone\capstone-server)
+2020-07-15 14:58:40.236  INFO 19856 --- [           main] com.hackerrank.sample.EndTests           : No active profile set, falling back to default profiles: default
+2020-07-15 14:58:41.594  INFO 19856 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3315d2d7: startup date [Wed Jul 15 14:58:41 CDT 2020]; root of context hierarchy
+2020-07-15 14:58:54.785  INFO 19856 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-07-15 14:58:54.805  INFO 19856 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-15 14:58:56.086  INFO 19856 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2020-07-15 14:58:56.429  INFO 19856 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-07-15 14:58:56.601  INFO 19856 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-07-15 14:58:56.941  INFO 19856 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-07-15 14:58:58.943  INFO 19856 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-15 14:59:04.239  INFO 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+Hibernate: alter table meritbank.account_holders drop foreign key FKdh4humhcb2enkheyy40334r6x
+2020-07-15 14:59:06.085 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table meritbank.account_holders drop foreign key FKdh4humhcb2enkheyy40334r6x
+2020-07-15 14:59:06.085 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Can't DROP FOREIGN KEY `FKdh4humhcb2enkheyy40334r6x`; check that it exists
+Hibernate: alter table meritbank.account_holders drop foreign key FKetxbd4wrs4akg88d8vbs0lt4y
+2020-07-15 14:59:06.369 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table meritbank.account_holders drop foreign key FKetxbd4wrs4akg88d8vbs0lt4y
+2020-07-15 14:59:06.369 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Can't DROP FOREIGN KEY `FKetxbd4wrs4akg88d8vbs0lt4y`; check that it exists
+Hibernate: alter table meritbank.account_holders drop foreign key FKnqk0lj24120blpopfgxs1i0kt
+2020-07-15 14:59:06.990 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table meritbank.account_holders drop foreign key FKnqk0lj24120blpopfgxs1i0kt
+2020-07-15 14:59:06.990 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Can't DROP FOREIGN KEY `FKnqk0lj24120blpopfgxs1i0kt`; check that it exists
+Hibernate: alter table meritbank.account_holders drop foreign key FKnm49j87w1fsedk19oe73rcgk0
+2020-07-15 14:59:07.288 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table meritbank.account_holders drop foreign key FKnm49j87w1fsedk19oe73rcgk0
+2020-07-15 14:59:07.288 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Can't DROP FOREIGN KEY `FKnm49j87w1fsedk19oe73rcgk0`; check that it exists
+Hibernate: alter table meritbank.account_holders drop foreign key FK757umcsndlk5oaegeu7549065
+2020-07-15 14:59:08.409 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table meritbank.account_holders drop foreign key FK757umcsndlk5oaegeu7549065
+2020-07-15 14:59:08.410 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Can't DROP FOREIGN KEY `FK757umcsndlk5oaegeu7549065`; check that it exists
+Hibernate: alter table meritbank.account_holders drop foreign key FKnoynw41i62cyvn60hihp5sia2
+2020-07-15 14:59:09.156 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table meritbank.account_holders drop foreign key FKnoynw41i62cyvn60hihp5sia2
+2020-07-15 14:59:09.156 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Can't DROP FOREIGN KEY `FKnoynw41i62cyvn60hihp5sia2`; check that it exists
+Hibernate: alter table meritbank.account_holders drop foreign key FKa5rlbpkqpwec5nb5wavv9i5bd
+2020-07-15 14:59:09.430 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table meritbank.account_holders drop foreign key FKa5rlbpkqpwec5nb5wavv9i5bd
+2020-07-15 14:59:09.430 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Can't DROP FOREIGN KEY `FKa5rlbpkqpwec5nb5wavv9i5bd`; check that it exists
+Hibernate: alter table meritbank.account_holders_contact_details drop foreign key FKt5l6gc3h4r6w015cgwwu2nhe3
+2020-07-15 14:59:09.430 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table meritbank.account_holders_contact_details drop foreign key FKt5l6gc3h4r6w015cgwwu2nhe3
+2020-07-15 14:59:09.430 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Table 'meritbank.account_holders_contact_details' doesn't exist
+Hibernate: alter table meritbank.user drop foreign key FKhsohbloovgrkmy53be7mn270h
+2020-07-15 14:59:09.431 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table meritbank.user drop foreign key FKhsohbloovgrkmy53be7mn270h
+2020-07-15 14:59:09.431 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Table 'meritbank.user' doesn't exist
+Hibernate: drop table if exists meritbank.account_holders
+Hibernate: drop table if exists meritbank.account_holders_contact_details
+Hibernate: drop table if exists meritbank.cd_offering
+Hibernate: drop table if exists meritbank.checking_account
+Hibernate: drop table if exists meritbank.savings_account
+Hibernate: drop table if exists meritbank.user
+Hibernate: alter table cdaccount drop foreign key FK8lfl0e0kiw90sneeb2wxcei4
+2020-07-15 14:59:13.169 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table cdaccount drop foreign key FK8lfl0e0kiw90sneeb2wxcei4
+2020-07-15 14:59:13.169 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Table 'meritbank.cdaccount' doesn't exist
+Hibernate: alter table cdaccount drop foreign key FK8qeoji6989eya09yx1ub1c1mu
+2020-07-15 14:59:13.169 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table cdaccount drop foreign key FK8qeoji6989eya09yx1ub1c1mu
+2020-07-15 14:59:13.169 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Table 'meritbank.cdaccount' doesn't exist
+Hibernate: alter table dbaccount drop foreign key FKqyt4via2wy97vrvaq5hjel4td
+2020-07-15 14:59:13.170 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: alter table dbaccount drop foreign key FKqyt4via2wy97vrvaq5hjel4td
+2020-07-15 14:59:13.170 ERROR 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : Table 'meritbank.dbaccount' doesn't exist
+Hibernate: drop table if exists cdaccount
+Hibernate: drop table if exists dbaccount
+Hibernate: drop table if exists hibernate_sequences
+Hibernate: drop table if exists regularira
+Hibernate: drop table if exists rolloverira
+Hibernate: drop table if exists rothira
+Hibernate: drop table if exists transaction
+Hibernate: create table meritbank.account_holders (account_id integer not null auto_increment, first_name varchar(255) not null, last_name varchar(255) not null, middle_name varchar(255), ssn varchar(255) not null, checking_bank_account_id integer, contact_contact_id integer, regularira_bank_account_id integer, rolloverira_bank_account_id integer, rothira_bank_account_id integer, savings_bank_account_id integer, user_id integer, primary key (account_id))
+Hibernate: create table meritbank.account_holders_contact_details (contact_id integer not null auto_increment, first_name varchar(255), last_name varchar(255), middle_name varchar(255), account_id integer, primary key (contact_id))
+Hibernate: create table meritbank.cd_offering (cd_id integer not null auto_increment, interest_rate double precision not null, term integer not null, primary key (cd_id))
+Hibernate: create table meritbank.checking_account (bank_account_id integer not null, accout_start_date datetime, balance double precision not null, interest_rate double precision not null, primary key (bank_account_id))
+Hibernate: create table meritbank.savings_account (bank_account_id integer not null, accout_start_date datetime, balance double precision not null, interest_rate double precision not null, primary key (bank_account_id))
+Hibernate: create table meritbank.user (id integer not null auto_increment, active bit not null, password varchar(255), roles varchar(255), user_name varchar(255), account_id integer, primary key (id))
+Hibernate: create table cdaccount (bank_account_id integer not null, accout_start_date datetime, balance double precision not null, interest_rate double precision not null, term integer not null, cd_id integer, cd_accounts_account_id integer, primary key (bank_account_id))
+Hibernate: create table dbaccount (bank_account_id integer not null, accout_start_date datetime, balance double precision not null, interest_rate double precision not null, company_name varchar(255), db_accounts_account_id integer, primary key (bank_account_id))
+Hibernate: create table hibernate_sequences (sequence_name varchar(255) not null, sequence_next_hi_value bigint, primary key (sequence_name))
+Hibernate: create table regularira (bank_account_id integer not null, accout_start_date datetime, balance double precision not null, interest_rate double precision not null, primary key (bank_account_id))
+Hibernate: create table rolloverira (bank_account_id integer not null, accout_start_date datetime, balance double precision not null, interest_rate double precision not null, primary key (bank_account_id))
+Hibernate: create table rothira (bank_account_id integer not null, accout_start_date datetime, balance double precision not null, interest_rate double precision not null, primary key (bank_account_id))
+Hibernate: create table transaction (dtype varchar(31) not null, transaction_id integer not null, amount double precision not null, date datetime, source integer not null, target integer not null, type varchar(255), transactions_bank_account_id integer, primary key (transaction_id))
+Hibernate: alter table meritbank.account_holders add constraint FKdh4humhcb2enkheyy40334r6x foreign key (checking_bank_account_id) references meritbank.checking_account (bank_account_id)
+Hibernate: alter table meritbank.account_holders add constraint FKetxbd4wrs4akg88d8vbs0lt4y foreign key (contact_contact_id) references meritbank.account_holders_contact_details (contact_id)
+Hibernate: alter table meritbank.account_holders add constraint FKnqk0lj24120blpopfgxs1i0kt foreign key (regularira_bank_account_id) references regularira (bank_account_id)
+Hibernate: alter table meritbank.account_holders add constraint FKnm49j87w1fsedk19oe73rcgk0 foreign key (rolloverira_bank_account_id) references rolloverira (bank_account_id)
+Hibernate: alter table meritbank.account_holders add constraint FK757umcsndlk5oaegeu7549065 foreign key (rothira_bank_account_id) references rothira (bank_account_id)
+Hibernate: alter table meritbank.account_holders add constraint FKnoynw41i62cyvn60hihp5sia2 foreign key (savings_bank_account_id) references meritbank.savings_account (bank_account_id)
+Hibernate: alter table meritbank.account_holders add constraint FKa5rlbpkqpwec5nb5wavv9i5bd foreign key (user_id) references meritbank.user (id)
+Hibernate: alter table meritbank.account_holders_contact_details add constraint FKt5l6gc3h4r6w015cgwwu2nhe3 foreign key (account_id) references meritbank.account_holders (account_id)
+Hibernate: alter table meritbank.user add constraint FKhsohbloovgrkmy53be7mn270h foreign key (account_id) references meritbank.account_holders (account_id)
+Hibernate: alter table cdaccount add constraint FK8lfl0e0kiw90sneeb2wxcei4 foreign key (cd_id) references meritbank.cd_offering (cd_id)
+Hibernate: alter table cdaccount add constraint FK8qeoji6989eya09yx1ub1c1mu foreign key (cd_accounts_account_id) references meritbank.account_holders (account_id)
+Hibernate: alter table dbaccount add constraint FKqyt4via2wy97vrvaq5hjel4td foreign key (db_accounts_account_id) references meritbank.account_holders (account_id)
+2020-07-15 15:01:07.156  INFO 19856 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2020-07-15 15:01:07.197  INFO 19856 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-15 15:01:09.316  INFO 19856 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-07-15 15:01:12.475  INFO 19856 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ad1be5d, org.springframework.security.web.context.SecurityContextPersistenceFilter@598778cc, org.springframework.security.web.header.HeaderWriterFilter@2520aa05, org.springframework.security.web.authentication.logout.LogoutFilter@12670e55, com.meritamerica.capstone.filters.JwtRequestFilter@29fcfc54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@727453a3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26f5e45d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47797401, org.springframework.security.web.session.SessionManagementFilter@46a388cc, org.springframework.security.web.access.ExceptionTranslationFilter@c67395]
+2020-07-15 15:01:13.012  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Transfer/{type}/{from}/{to}/{amount}],methods=[POST]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.transfer(java.security.Principal,java.lang.String,int,int,double) throws com.meritamerica.capstone.exception.InformationNotfound,com.meritamerica.capstone.exception.NegativeAmountException,com.meritamerica.capstone.exception.ExceedsAvailableBalanceException
+2020-07-15 15:01:13.013  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/CDOfferings],methods=[GET]}" onto public java.util.List<com.meritamerica.capstone.models.CDOffering> com.meritamerica.capstone.controller.MeritBankController.getCDOfferings()
+2020-07-15 15:01:13.013  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.meritamerica.capstone.controller.MeritBankController.login(com.meritamerica.capstone.models.AuthenticationRequest) throws java.lang.Exception
+2020-07-15 15:01:13.013  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/CreateAccount],methods=[POST]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.createAccount(com.meritamerica.capstone.models.AccountHolder,java.security.Principal)
+2020-07-15 15:01:13.013  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signup],methods=[POST]}" onto public com.meritamerica.capstone.models.User com.meritamerica.capstone.controller.MeritBankController.signup(com.meritamerica.capstone.models.User)
+2020-07-15 15:01:13.013  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/AccountHolder],methods=[GET]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.getAccountHolder(java.security.Principal)
+2020-07-15 15:01:13.013  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Withdraw/{type}/{to}/{amount}],methods=[POST]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.withdraw(java.security.Principal,java.lang.String,int,double) throws com.meritamerica.capstone.exception.InformationNotfound,com.meritamerica.capstone.exception.NegativeAmountException,com.meritamerica.capstone.exception.ExceedsAvailableBalanceException
+2020-07-15 15:01:13.014  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/RothIRA],methods=[POST]}" onto public com.meritamerica.capstone.models.RothIRA com.meritamerica.capstone.controller.MeritBankController.createRothIRA(java.security.Principal,com.meritamerica.capstone.models.RothIRA) throws com.meritamerica.capstone.exception.AccountExistsException
+2020-07-15 15:01:13.014  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Delete/RegularIRA],methods=[POST]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.deleteRegularIRA(java.security.Principal) throws com.meritamerica.capstone.exception.AccountExistsException,com.meritamerica.capstone.exception.NegativeAmountException
+2020-07-15 15:01:13.014  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/CDAccount],methods=[POST]}" onto public com.meritamerica.capstone.models.CDAccount com.meritamerica.capstone.controller.MeritBankController.createCDAccount(java.security.Principal,com.meritamerica.capstone.models.CDAccount) throws com.meritamerica.capstone.exception.AccountExistsException
+2020-07-15 15:01:13.014  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Delete/CDAccount/{id}],methods=[POST]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.deleteCDAccount(java.security.Principal,int) throws com.meritamerica.capstone.exception.AccountExistsException,com.meritamerica.capstone.exception.NegativeAmountException
+2020-07-15 15:01:13.014  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Delete/RothIRA],methods=[POST]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.deleteRothIRA(java.security.Principal) throws com.meritamerica.capstone.exception.AccountExistsException,com.meritamerica.capstone.exception.NegativeAmountException
+2020-07-15 15:01:13.014  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/DBAccount],methods=[POST]}" onto public com.meritamerica.capstone.models.DBAccount com.meritamerica.capstone.controller.MeritBankController.createDBAccount(java.security.Principal,com.meritamerica.capstone.models.DBAccount) throws com.meritamerica.capstone.exception.AccountExistsException,com.meritamerica.capstone.exception.ExceedsCombinedLimitException
+2020-07-15 15:01:13.014  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Deposit/{type}/{to}/{amount}],methods=[POST]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.deposit(java.security.Principal,java.lang.String,int,double) throws com.meritamerica.capstone.exception.InformationNotfound,com.meritamerica.capstone.exception.NegativeAmountException
+2020-07-15 15:01:13.014  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/RegularIRA],methods=[POST]}" onto public com.meritamerica.capstone.models.RegularIRA com.meritamerica.capstone.controller.MeritBankController.createRegularIRA(java.security.Principal,com.meritamerica.capstone.models.RegularIRA) throws com.meritamerica.capstone.exception.AccountExistsException
+2020-07-15 15:01:13.015  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Delete/DBAccount/{id}],methods=[POST]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.deleteDBAccount(java.security.Principal,int) throws com.meritamerica.capstone.exception.AccountExistsException,com.meritamerica.capstone.exception.ExceedsCombinedLimitException,com.meritamerica.capstone.exception.NegativeAmountException
+2020-07-15 15:01:13.015  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/RolloverIRA],methods=[POST]}" onto public com.meritamerica.capstone.models.RolloverIRA com.meritamerica.capstone.controller.MeritBankController.createRolloverIRA(java.security.Principal,com.meritamerica.capstone.models.RolloverIRA) throws com.meritamerica.capstone.exception.AccountExistsException
+2020-07-15 15:01:13.015  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Delete/RolloverIRA],methods=[POST]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.deleteRolloverIRA(java.security.Principal) throws com.meritamerica.capstone.exception.AccountExistsException,com.meritamerica.capstone.exception.NegativeAmountException
+2020-07-15 15:01:13.015  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/CheckingAccount],methods=[POST]}" onto public com.meritamerica.capstone.models.CheckingAccount com.meritamerica.capstone.controller.MeritBankController.createCheckingAccount(java.security.Principal,com.meritamerica.capstone.models.CheckingAccount) throws com.meritamerica.capstone.exception.AccountExistsException
+2020-07-15 15:01:13.015  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/SavingsAccount],methods=[POST]}" onto public com.meritamerica.capstone.models.SavingsAccount com.meritamerica.capstone.controller.MeritBankController.createSavingsAccount(java.security.Principal,com.meritamerica.capstone.models.SavingsAccount) throws com.meritamerica.capstone.exception.AccountExistsException
+2020-07-15 15:01:13.015  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Delete/CheckingAccount],methods=[POST]}" onto public com.meritamerica.capstone.models.AccountHolder com.meritamerica.capstone.controller.MeritBankController.deleteCheckingAccount(java.security.Principal) throws com.meritamerica.capstone.exception.AccountExistsException,com.meritamerica.capstone.exception.NegativeAmountException
+2020-07-15 15:01:13.015  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Delete/AccountHolder],methods=[POST]}" onto public void com.meritamerica.capstone.controller.MeritBankController.deleteAccountHolder(java.security.Principal)
+2020-07-15 15:01:13.017  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-15 15:01:13.017  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-15 15:01:13.877  INFO 19856 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3315d2d7: startup date [Wed Jul 15 19:58:41 UTC 2020]; root of context hierarchy
+2020-07-15 15:01:15.505  INFO 19856 --- [           main] com.hackerrank.sample.EndTests           : Started EndTests in 159.188 seconds (JVM running for 168.332)
+2020-07-15 15:01:15.789  INFO 19856 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2020-07-15 15:01:15.789  INFO 19856 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2020-07-15 15:01:15.814  INFO 19856 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 25 ms
+Hibernate: insert into meritbank.user (account_id, active, password, roles, user_name) values (?, ?, ?, ?, ?)
+2020-07-15 15:01:16.609  WARN 19856 --- [           main] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/authenticate/createUser] in DispatcherServlet with name ''
+]]></system-out>
+  </testcase>
+  <testcase name="testAccountHolder" classname="com.hackerrank.sample.EndTests" time="0.449">
+    <failure message="Status expected:&lt;201&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:665)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.hackerrank.sample.EndTests.testAccountHolder(EndTests.java:100)
+]]></failure>
+    <system-out><![CDATA[2020-07-15 15:01:16.638  INFO 19856 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2020-07-15 15:01:16.638  INFO 19856 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2020-07-15 15:01:16.639  INFO 19856 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1 ms
+Hibernate: insert into meritbank.user (account_id, active, password, roles, user_name) values (?, ?, ?, ?, ?)
+2020-07-15 15:01:17.085  WARN 19856 --- [           main] o.s.web.servlet.PageNotFound             : No mapping found for HTTP request with URI [/AccountHolders] in DispatcherServlet with name ''
+]]></system-out>
+  </testcase>
+</testsuite>
